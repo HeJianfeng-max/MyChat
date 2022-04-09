@@ -4,6 +4,10 @@ import com.messageFormat.base.RequestHeader;
 
 public interface JmsRequestHeader extends RequestHeader {
 
+    String getUrl();
+
+    void setUrl(String url);
+
     void setMessageType(String messageType);
 
     String getMessageType();

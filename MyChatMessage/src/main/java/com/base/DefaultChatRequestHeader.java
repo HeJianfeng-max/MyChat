@@ -14,6 +14,8 @@ import java.util.List;
 @NoArgsConstructor
 public class DefaultChatRequestHeader implements JmsRequestHeader {
 
+    private String url;
+
     private String messageId;
 
     private String messageType;
